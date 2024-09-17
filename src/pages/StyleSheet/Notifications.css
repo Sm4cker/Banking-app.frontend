@@ -1,0 +1,123 @@
+.notifications-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .notifications-page h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .clear-all-btn {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clear-all-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .no-notifications {
+    text-align: center;
+    color: #777;
+    font-size: 1.2em;
+  }
+
+  i {
+    font-style: normal;
+  }
+  
+   .notifications-list {
+    margin-top: 20px;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .notification-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .notification-icon {
+    font-size: 1.5em;
+    margin-right: 15px;
+    color: #007bff;
+  }
+  
+  .notification-icon .icon-transaction::before {
+    content: '💰'; 
+  }
+  
+  .notification-icon .icon-reminder::before {
+    content: '⏰';
+  }
+  
+  .notification-icon .icon-security::before {
+    content: '🔒';
+  }
+  
+  .notification-content {
+    flex: 1;
+  }
+  
+  .notification-message {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .notification-date {
+    font-size: 0.85em;
+    color: #888;
+  }
+
+
+.dismiss-btn {
+    background: transparent;
+    border: none;
+    font-size: 1.2em;
+    color: #888;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-left: auto;
+    transition: color 0.3s ease;
+  }
+  
+  .dismiss-btn:hover {
+    color: #ff0000;
+  }
+  
+  
+
+  @media (max-width: 600px) {
+    .notification-item {
+      flex-direction: column;
+    }
+  
+    .notification-icon {
+      margin-bottom: 10px;
+    }
+  
+    .clear-all-btn {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

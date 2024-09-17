@@ -1,0 +1,129 @@
+.credit-card-management-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .credit-card-management-page h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+
+  .add-card-form, .pay-credit-card-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-card-form input, .pay-credit-card-form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-card-form input:focus, .pay-credit-card-form input:focus {
+    border-color: #007bff;
+  }
+  
+  .add-card-form button, .pay-credit-card-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-card-form button:hover, .pay-credit-card-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .credit-card-overview {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .card-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-number {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .card-type, .available-credit {
+    color: #777;
+    margin-top: 5px;
+    font-size: 0.95em;
+  }
+  
+  .card-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .pay-bill-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pay-bill-btn:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .credit-card-management-page {
+      padding: 15px;
+    }
+  
+    .card-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .pay-bill-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

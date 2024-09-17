@@ -1,0 +1,33 @@
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-date,
+  .transaction-amount,
+  .transaction-type {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .transaction-date {
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .transaction-amount {
+    color: #007bff;
+    font-weight: 600;
+  }
+  
+  .transaction-type {
+    color: #6c757d;
+    font-weight: 400;
+  }
+  

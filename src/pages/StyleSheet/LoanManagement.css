@@ -1,0 +1,88 @@
+.loan-management-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .loan-management-page h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .apply-loan-form, .make-payment-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .apply-loan-form input, .make-payment-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .apply-loan-form button, .make-payment-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .apply-loan-form button:hover, .make-payment-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loan-overview {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loan-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .loan-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loan-type {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .loan-balance, .loan-due {
+    color: #777;
+  }
+  
+  .loan-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .apply-loan-btn, .make-payment-btn {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-loan-btn:hover, .make-payment-btn:hover {
+    background-color: #218838;
+  }
+  

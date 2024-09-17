@@ -1,0 +1,82 @@
+.bill-payments-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .bill-payments-page h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .add-biller-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .add-biller-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .add-biller-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .add-biller-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .biller-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .biller-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .biller-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .biller-name {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .biller-amount {
+    color: #777;
+  }
+  
+  .pay-now-btn {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pay-now-btn:hover {
+    background-color: #218838;
+  }
+  

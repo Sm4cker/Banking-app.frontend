@@ -1,0 +1,195 @@
+.profile-settings-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .profile-settings-page h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .personal-info, .change-password-form, .security-settings {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .personal-info h3, .change-password-form h3, .security-settings h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .personal-info-display p {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .personal-info-display .edit-btn,
+  .personal-info-form .save-btn,
+  .personal-info-form .cancel-btn {
+    margin-top: 20px;
+  }
+  
+  .personal-info-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .personal-info-form .save-btn,
+  .personal-info-form .cancel-btn {
+    padding: 12px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .personal-info-form .save-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .personal-info-form .cancel-btn {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .personal-info-form .save-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .personal-info-form .cancel-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  .edit-btn {
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background-color: #138496;
+  }
+  
+  .change-password-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .change-password-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .change-password-form .change-password-btn {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .change-password-form .change-password-btn:hover {
+    background-color: #138496;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-bottom: 15px;
+  }
+  
+  .security-settings .two-factor-auth {
+    margin-bottom: 20px;
+  }
+  
+  .security-settings .two-factor-auth label {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .security-settings .two-factor-auth input {
+    margin-right: 10px;
+  }
+  
+  .security-settings .security-questions h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .security-settings .security-questions input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .security-settings .save-security-question-btn {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .security-settings .save-security-question-btn:hover {
+    background-color: #138496;
+  }
+  
+  .logout-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c82333;
+  }
+
+  @media (max-width: 600px) {
+    .personal-info-form input,
+    .change-password-form input,
+    .security-settings input {
+      padding: 10px;
+    }
+  
+    .personal-info-form .save-btn,
+    .personal-info-form .cancel-btn,
+    .change-password-form .change-password-btn,
+    .security-settings .save-security-question-btn {
+      padding: 10px;
+    }
+  
+    .logout-btn {
+      padding: 12px;
+    }
+  }
+  

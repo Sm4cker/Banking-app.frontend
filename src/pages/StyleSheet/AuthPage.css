@@ -1,0 +1,80 @@
+.auth__page {
+  background: linear-gradient(135deg, #6E85B2, #182848);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth__card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #6E85B2;
+}
+
+.auth__btn {
+  width: 100%;
+  background: #182848;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth__btn:hover {
+  background: #6E85B2;
+}
+
+.forgot-password-page {
+  background: linear-gradient(135deg, #6E85B2, #182848);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.remember-forgot{
+  margin-bottom: 20px;
+}
+.forgot-link{
+  margin-left: 20px;
+}
+.forgot-password-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.forgot-password-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
